@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan Prado</title>
+    <!-- Link para o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: #000000;
+        }
+        .navbar {
+            background-color: #000000;
+        }
+        .profile-pic {
+            border: 4px solid #f77e7e;
+        }
+        h2, h3 {
+            color: #e41818;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"> Renan Prado</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Seção de Perfil -->
+        <section class="profile row justify-content-center">
+            <div class="col-md-4 text-center">
+                <img src="{{ url_for('static', filename='images/my-photo.jpg') }}" alt="Minha Foto" class="profile-pic img-fluid rounded-circle">
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section class="about-me row">
+            <div class="col">
+                <h2>Sobre Mim</h2>
+                <p>Prazer, Meu nome é Renan Prado, tenho 19 anos e sou estudante de programador, e disposto em ficar um intusiasta no assunto</p>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section class="projects row">
+            <div class="col-md-6">
+                <div class="project card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Projeto 1: Aplicativo de Gestão de Tarefas</h3>
+                        <p class="card-text">Desenvolvi um aplicativo para gerenciamento de tarefas pessoais com funcionalidades de notificação e calendário, utilizando JavaScript e Firebase...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Projeto 2: Plataforma de Cursos Online</h3>
+                        <p class="card-text">Criei uma plataforma fictícia de cursos online usando Django e Bootstrap, com suporte para vídeos, quizzes e certificados automáticos...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Projeto 3: Jogo de Aventura em HTML5</h3>
+                        <p class="card-text">Desenvolvi um jogo de aventura 2D para navegadores utilizando HTML5, CSS e JavaScript, com animações e física interativa...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Projeto 4: Sistema de Reservas de Hotel</h3>
+                        <p class="card-text">Implementei um sistema de reservas para hotéis fictícios com funcionalidades de busca, reserva e pagamentos simulados, utilizando PHP e MySQL...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section class="contact row">
+            <div class="col">
+                <h2>Contato</h2>
+                <p>E-mail: renan.prado875@al.unieduk.com.br</p>
+                <p>Número: (19) 99123-2150</p>
+                <p>Github: <a href="renan prado" target="_blank">RenanPrado</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Link para o Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
