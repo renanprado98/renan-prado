@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1c1c1c;
+    color: #00aaff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Perfil */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #00aaff;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Projetos */
+.project {
+    background-color: #1c1c1c; /* Cor de fundo das seções de projetos */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave ao redor do projeto */
+}
+
+.project h3 {
+    color: #00aaff; /* Cor dos títulos dos projetos */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #e0e0e0; /* Cor do texto das descrições dos projetos */
+}
+
+/* Contato */
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
